@@ -1,0 +1,51 @@
+body {
+	margin: 0;
+}
+
+header {
+	width: 100%;
+	max-width: 800px;
+	height: 100px;
+	margin: auto;
+}
+.logo {
+	width: 50%;
+	height: 100px;
+	background-color: #DCDCDC;
+	float: left;
+}
+.menu {
+	width: 50%;
+	height: 100px;	
+	background-color: #C0C0C0;
+	float: left;
+}
+
+.conteudo {
+	width: 100%;
+	max-width: 800px;
+	height: 300px;
+	margin: auto;
+	background-color: #808080;
+}
+
+footer {
+	width: 100%;
+	max-width: 800px;
+	height: 100px;
+	margin: auto;
+	background-color: #D3D3D3;
+}
+
+
+@media only screen and (max-width: 400px) {
+	header {
+		height: 200px;
+	}
+	.logo {
+		width: 100%;
+	}
+	.menu {
+		width: 100%;
+	}
+}

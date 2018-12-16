@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<form method="POST" action=""/>
+		Usuario <br/>
+		<input type="text" name="Usuario" /> <br/>
+		Senha <br/>
+		<input type="password" name="senha" /> <br/><br/>
+
+		<textarea></textarea><br/><br/>
+
+		<select name="opcoes">
+			<option value="1">Campo 1</option>
+			<option value="2">Campo 2</option>
+			<option value="3">Campo 3</option>
+		</select>
+
+		<input type="submit" name="Salvar"/>
+	</form>
+
+</body>
+</html>

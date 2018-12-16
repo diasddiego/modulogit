@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Meu Teste</title>
+</head>
+<body>
+
+	<iframe frameborder="0" src="arcanos.html" width="400" height="300">
+		<!-- Site dentro de site -->		
+	</iframe>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Meu Teste</title>
+
+	<link rel="stylesheet" href="assets/css/teste.css" />
+</head>
+<body>
+	
+	<div class="texto">
+		<h1>Titulo da Pagina</h1>	
+		Aqui esta o texto da pagina
+	</div>
+
+	<form method="POST">
+
+		<input type="email" name="email" required placeholder="E-mail" />
+		<input type="submit" value="Enviar">
+
+	</form>
+
+	<input type="search" name="search" autofocus />
+	<input type="tel" name="tel" max-lenght="12"/>
+	<!-- TEL assim como NUMBER oferecem opçoes para surgir teclado ao usuário de celular -->
+	<input type="range" min="1" max="5" name="range" />
+	<input type="datetime" /><!-- ou MOUTH, WEEK, TIME -->
+	<input type="color" />
+
+
+	<div class="caixa2">
+		<img src="assets/img/Moroi.jpg" alt="Senda Moroi" />		
+		<img src="assets/img/Acanthy.jpg" alt="Senda Acanthy" />
+		<img src="assets/img/Obrimoi.jpg" alt="Senda Obrimoi" />
+		<img src="assets/img/Thyrsi.jpg" alt="Senda Thyrsi" />		
+	</div>
+
+</body>
+</html>

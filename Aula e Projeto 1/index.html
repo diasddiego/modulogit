@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta id="viewport" name="viewport" content="width=device-width, user-scalable=no">
+	<title>Meu Portal</title>
+	<link rel="stylesheet" href="assets/css/index.css">
+	<script type="text/javascript" src="assets/js/script.js"></script>
+</head>
+<body>
+
+	<div class="topo">
+		<div class="topoint">
+			<div class="topoesquerdo">
+				<ul>
+					<li><a href="*">Home</a></li>
+					<li><a href="*">Quem Somos</a></li>
+					<li><a href="*">Anuncie Aqui</a></li>
+					<li><a href="*">Contato</a></li>
+				</ul>
+			</div>
+			<div class="topodireito">
+				<input type="image" src="assets/img/search.png" border="0" width="26" height="26">
+				<input type="text" name="Busca" class="topobusca" placeholder="Busca...">
+				<a href="*"><img src="assets/img/youtube.png" border="0" width="26" height="26"></a>
+				<a href="*"><img src="assets/img/twitter.png" border="0" width="26" height="26"></a>
+				<a href="*"><img src="assets/img/face.png" border="0" width="26" height="26"></a>
+				<a href="*"><img src="assets/img/google-plus.png" border="0" width="26" height="26"></a>
+				<a href="*"><img src="assets/img/rss.png" border="0" width="26" height="26"></a>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="topo2">
+		<div class="topo2int">
+			<div class="logo">
+				<img src="assets/img/portal.png" border="0" width="260">
+			</div>
+			<div class="banner"></div>
+		</div>
+	</div>
+
+	<div class="menu">
+		<div class="menuint">
+			<img src="assets/img/arrow.png" border="0" width="40" height="40" class="menumobile" onclick="toggleMenu()">
+			<ul id="menu">
+				<li><a href="*">Home</a></li>
+				<li><a href="*">Economia</a></li>
+				<li>
+					<a href="*">Entretenimento</a>
+					<img src="assets/img/arrow.png" border="0" width="10" height="10" >
+					<div class="submenu">
+						<a href="*"><div class="submenuitem">Submenu 1</div></a>
+						<a href="*"><div class="submenuitem">Submenu 2</div></a>
+						<a href="*"><div class="submenuitem">Submenu 3</div></a>
+						<a href="*"><div class="submenuitem">Submenu 4</div></a>
+					</div>
+				</li>
+				<li>
+					<a href="*">Esportes</a>
+					<img src="assets/img/arrow.png" border="0" width="10" height="10" >
+					<div class="submenu">
+						<a href="*"><div class="submenuitem">Submenu 1</div></a>
+						<a href="*"><div class="submenuitem">Submenu 2</div></a>
+						<a href="*"><div class="submenuitem">Submenu 3</div></a>
+						<a href="*"><div class="submenuitem">Submenu 4</div></a>
+					</div>
+				</li>
+				<li><a href="*">Geral</a></li>
+				<li>
+					<a href="*">Noticias</a>
+					<img src="assets/img/arrow.png" border="0" width="10" height="10" >
+					<div class="submenu">
+						<a href="*"><div class="submenuitem">Submenu 1</div></a>
+						<a href="*"><div class="submenuitem">Submenu 2</div></a>
+						<a href="*"><div class="submenuitem">Submenu 3</div></a>
+						<a href="*"><div class="submenuitem">Submenu 4</div></a>
+					</div>
+				</li>
+				<li><a href="*">Policias</a></li>
+				<li><a href="*">Video</a></li>
+			</ul>
+		</div>		
+	</div>
+	<div class="ultnot">
+		<div class="ultnotint">
+			<div class="ultnotarea">
+				<div class="ultnottitulo">Ultimas Notícias</div>
+				<div class="ultnotnot">Alguma noticia de algum lugar. Para qualquer um que deseja ver para não assistir.</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="containerint">
+			<div class="ladoesquerdo">
+				<div class="slideshow" id="slideshow">
+					<div class="slidebolinhas">
+						<div class="bolinha" onclick="mudarSlide(0)"></div>
+						<div class="bolinha" onclick="mudarSlide(1)"></div>
+						<div class="bolinha" onclick="mudarSlide(2)"></div>
+						<div class="bolinha" onclick="mudarSlide(3)"></div>
+					</div>
+					<div class="slideshowarea">
+						<a href="http://www.google.com.br">
+							<div class="slide" style="width: 753px; background-image: url('http://www.google.com.br/logos/google.jpg');">
+								<div class="slideinfo">
+									<div class="sinftitulo">Este aqui é o titulo de teste</div>
+									<div class="sinfsubtitulo">Logo abaixo do titulo está o sub-titulo de teste</div>
+								</div>
+							</div>
+						</a>
+						<div class="slide" style="width: 753px; background-image: url('http://www.google.com.br/logos/google.jpg');">
+							<div class="slideinfo">
+								<div class="sinftitulo">Este aqui é o segundo titulo de teste</div>
+								<div class="sinfsubtitulo">Logo abaixo do titulo está o segundo sub-titulo de teste</div>
+							</div>
+						</div>
+						<div class="slide" style="width: 753px; background-image: url('http://www.google.com.br/logos/google.jpg');">
+							<div class="slideinfo">
+								<div class="sinftitulo">Este aqui é o terceiro titulo de teste</div>
+								<div class="sinfsubtitulo">Logo abaixo do titulo está o terceiro sub-titulo de teste</div>
+							</div>
+						</div>
+						<div class="slide" style="width: 753px; background-image: url('http://www.google.com.br/logos/google.jpg');">
+							<div class="slideinfo">
+								<div class="sinftitulo">Este aqui é o quarto titulo de teste</div>
+								<div class="sinfsubtitulo">Logo abaixo do quarto sub-titulo está o sub-titulo de teste</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="widget">
+					<div class="widgettitulo">NOTICIAS</div>
+					<div class="widgetconteudo">
+						<div class="notarea1">
+							<div class="notarea2item notarea1big">
+								<div class="notareaimg">
+									<img src="assets/img/Moroi.jpg" border="0" width="384" height="222">
+								</div>
+								<div class="notarea2tit">Arcanos Regente: Morte e Matéria;</div>
+								<div class="notarea2inf">Arquimaestria.</div>
+							</div>
+						</div>
+
+						<div class="notarea2">
+							<div class="notarea2item">
+								<div class="notareaimg">
+									<img src="assets/img/Thyrsi.jpg" border="0" width="80" height="80">
+								</div>
+								<div class="notarea2tit">Arcanos Regente: Vida e Espírito;</div>
+								<div class="notarea2inf">Último: não usado.</div>
+							</div>	
+							<div class="notarea2item">
+								<div class="notareaimg">
+									<img src="assets/img/Obrimoi.jpg" border="0" width="80" height="80">
+								</div>
+								<div class="notarea2tit">Arcanos Regente: Forças e Primórdio;</div>
+								<div class="notarea2inf">Primeiro: não usado.</div>
+							</div>						
+						</div>
+						<div style="clear: both"></div>
+					</div>
+				</div>
+			</div>
+			<div class="ladodireito">
+				<div class="widget">
+					<div class="widgettitulo">SOCIAL</div>
+					<div class="widgetconteudo">
+						<a href="*"><img src="assets/img/rss.png" border="0" width="20" height="20"></a>
+						<a href="*"><img src="assets/img/google-plus.png" border="0" width="20" height="20"></a>
+						<a href="*"><img src="assets/img/face.png" border="0" width="20" height="20"></a>
+						<a href="*"><img src="assets/img/twitter.png" border="0" width="20" height="20"></a>
+						<a href="*"><img src="assets/img/youtube.png" border="0" width="20" height="20"></a>
+					</div>
+				</div>
+				<div class="widget">
+					<div class="widgettitulo">NOTICIAS</div>
+					<div class="widgetconteudo">
+						<div class="notitem">Como estou indo em relação a este curso? Sua opinião é muito importante</div>
+						<div class="notitem">Como estou indo em relação a este curso? Sua opinião é muito importante</div>
+						<div class="notitem">Como estou indo em relação a este curso? Sua opinião é muito importante</div>
+						<div class="notitem">Como estou indo em relação a este curso? Sua opinião é muito importante</div>
+						<div class="notitem">Como estou indo em relação a este curso? Sua opinião é muito importante</div>
+					</div>
+				</div>
+				<div class="widget">
+					<div class="widgettitulo">PUBLICIDADE</div>
+					<div class="widgetconteudo">
+						<img src="assets/img/Acanthy.jpg" border="0" width="275" height="275" >
+					</div>
+				</div>
+				<div class="widget">
+					<div class="widgettitulo">ENCONTRE-NOS NO FACEBOOK</div>
+					<div class="widgetconteudo">
+						<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs&width=340&height=154&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="275" height="275" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

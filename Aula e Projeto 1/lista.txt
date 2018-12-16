@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Minha pagina - teste</title>
+</head>
+<body>
+	
+	<!-- lista NAO ORDENADA -->
+	Arcanos
+	<ul style="list-style-type: none ">
+		<!-- podendo usar: circle, disc e outros -->
+		<li>Espaço</li>
+		<li>Espírito</li>
+		<li>Forças</li>
+		<li>Materia</li>
+		<li>Mente</li>
+		<li>Morte</li>
+		<li>Prmordio</li>
+		<li>Sorte</li>
+		<li>Tempo</li>
+		<li>Vida</li>
+	</ul>
+
+	<!-- lista ORDENADA -->
+	<ol type="I"><!-- podendo usar: a, 1, I, i e outros -->
+		<li>Novato</li>
+		<li>Aprendiz</li>
+		<li>Mestre</li>
+		<li>Arquimestre</li>
+	</ol>
+</body>
+</html>

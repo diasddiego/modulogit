@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Minha pagina - Arcanos</title>
+</head>
+<body>
+	
+	<!-- lista NAO ORDENADA -->
+	Arcanos
+	<ul style="list-style-type: none ">
+		<!-- podendo usar: circle, disc e outros -->
+		<li>Espaço</li>
+		<li>Espírito</li>
+		<li>Forças</li>
+		<li>Materia</li>
+		<li>Mente</li>
+		<li>Morte</li>
+		<li>Prmordio</li>
+		<li>Sorte</li>
+		<li>Tempo</li>
+		<li>Vida</li>
+	</ul>
+
+	<!-- lista ORDENADA -->
+	<ol type="I"><!-- podendo usar: a, 1, I, i e outros -->
+		<li>Novato</li>
+		<li>Aprendiz</li>
+		<li>Mestre</li>
+		<li>Arquimestre</li>
+	</ol>
+
+	<table width="400" border="1">
+		<tr>
+			<td align="center"><strong>Nome</strong></td>
+			<td align="center"><strong>Grau</strong></td>
+			<td align="center"><strong>Ordem</strong></td>
+		</tr>
+		<tr>
+			<td onmouseout="alert('Impalpavel')">Samael</td>
+			<td colspan="2">Arquimestre</td>
+		</tr>
+		<tr>
+			<td>Amon</td>
+			<td>Arquimestre</td>
+			<td>Concilio Livre</td>
+		</tr>
+	</table>
+
+</body>
+</html>
